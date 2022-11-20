@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238,223,204);
+}
+
+.cardPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    font-family: 'Shippori Antique B1', sans-serif;
+    height: 380px;
+    width: 840px;
+    background-color: white;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.photo {
+    height: 380px;
+    width: 285px;
+    border-radius: 10px 0 0 10px;
+}
+
+.textPadding {
+    padding-left: 50px;
+    padding-right: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.travel {
+    color: rgb(108,107,116);
+    border-bottom: 2px solid black;
+    border-color: rgba(108, 107, 116, 0.3);
+    width: 69px;
+}
+
+.best {
+    font-size: 28px;
+}
+
+.seattle {
+    font-size: 22px;
+    color: rgb(108,107,116);
+}
+
+.line {
+    border-bottom: 2px solid black;
+    border-color: rgba(108, 107, 116, 0.3);
+}
+
+.by {
+    font-size: 20px;
+    color: rgb(108,107,116);
+}
